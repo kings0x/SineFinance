@@ -16,3 +16,6 @@ else if (x < y) {
 } else {
   console.log("x is equal to y");
 }   
+
+console.log ("This is going very smoothly.");
+console.log("This is a test file.");
