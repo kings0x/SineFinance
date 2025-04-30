@@ -1,0 +1,87 @@
+*{
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*
+    Header Section
+*/
+.header__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__section__logo{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header__section__logo img{
+    width: 100%;
+}
+
+.header__section__nav{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.header__section__nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.header__section__button{
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.header__section__button button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*
+    Main Section
+*/
+
+/*
+    First Section
+*/
+.first__section{
+    padding: 100px 100px 100px 20px;
+
+}
+
+.first__section__text{
+    font-size: 55px;
+    font-weight: 700;
+    color: #000;
+}
+
+.first__section__trending__assets{
+    font-size: 50px;
+    padding: 0px 10px 0px 10px;
+}
+
+.first__section__button{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 15px 25px;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    background-color: #fff;
+}
